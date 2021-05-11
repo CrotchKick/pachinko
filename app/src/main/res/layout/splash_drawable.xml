@@ -17,6 +17,6 @@
         android:layout_marginLeft="56dp"
         android:layout_marginRight="56dp"
         android:src="@drawable/icon"
-        android:contentDescription="@string/todo" />
+        android:contentDescription="@string/totu" />
 
 </RelativeLayout>

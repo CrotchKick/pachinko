@@ -1,6 +1,8 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    //リスト作成　追加
+    id 'kotlinx-serialization'
 }
 
 android {
@@ -30,6 +32,9 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
@@ -47,4 +52,7 @@ dependencies {
 //    implementation 'com.google.android.gms:play-services-ads:20.0.0'
 //    implementation 'com.google.android.gms:play-services-ads:20.1.0'
     implementation 'com.google.android.gms:play-services-ads:19.1.0'
+
+    //リスト作成　追加
+    implementation "org.jetbrains.kotlinx:kotlinx-serialization-runtime:0.20.0"
 }
