@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -23,6 +24,9 @@ class ListFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        //アクションバーのタイトルをアプリ名に変更
+        (activity as AppCompatActivity).supportActionBar?.title = "パチンコ天井期待値"
+
         //RecycleView取得、縦1列レイアウトに修正
         binding.root.apply {
             layoutManager = LinearLayoutManager(context)
