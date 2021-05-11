@@ -45,5 +45,7 @@ class MainActivity : AppCompatActivity() {
         mAdView = findViewById(R.id.adView)
         val adRequest = AdRequest.Builder().build()
         mAdView.loadAd(adRequest)
+
+
     }
 }
