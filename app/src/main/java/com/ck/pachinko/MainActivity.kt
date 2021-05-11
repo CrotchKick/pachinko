@@ -10,14 +10,13 @@ import com.google.android.gms.ads.MobileAds
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
 
-
 //  広告設定
     lateinit var mAdView : AdView
 
 //    //スプラッシュページに戻らない設定
-    override fun onBackPressed() {
-        moveTaskToBack (true)
-    }
+//    override fun onBackPressed() {
+//        moveTaskToBack (true)
+//    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -36,7 +35,6 @@ class MainActivity : AppCompatActivity() {
                 replace(R.id.content, fragment, tag)
             }.commit()
         }
-
 
         // Test App ID
         MobileAds.initialize(this) {

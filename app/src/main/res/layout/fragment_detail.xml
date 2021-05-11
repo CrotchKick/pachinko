@@ -12,7 +12,7 @@
         android:layout_marginStart="2dp"
         android:layout_marginTop="2dp"
         android:layout_marginEnd="2dp"
-        app:cardBackgroundColor="#F4F3F3"
+        app:cardBackgroundColor="#2E2E7A"
         app:cardCornerRadius="10dp"
         app:cardElevation="4dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -46,7 +46,8 @@
         android:id="@+id/detailBonus"
         android:layout_width="66dp"
         android:layout_height="21dp"
-        android:layout_marginStart="108dp"
+        android:layout_marginStart="344dp"
+        android:layout_marginBottom="432dp"
         android:text="TextView"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
