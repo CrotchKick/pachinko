@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.ck.pachinko.databinding.FragmentDetailBinding
 
@@ -36,7 +37,7 @@ class DetailFragment : Fragment() {
         //情報を配列で取得してsightsに格納
         val sights = getSights(resources)
 //        アクションバーのタイトルを機種名に変更
-//        (activity as AppCompatActivity).supportActionBar?.title = sights[position].name
+        (activity as AppCompatActivity).supportActionBar?.title = sights[position].name
 
         //sight配列からposition番目のデータを取得し[fragment_detail]画面に表示
         binding.detailName.text = sights[position].name
