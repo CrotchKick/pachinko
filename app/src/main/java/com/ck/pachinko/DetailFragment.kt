@@ -40,7 +40,7 @@ class DetailFragment : Fragment() {
         (activity as AppCompatActivity).supportActionBar?.title = sights[position].name
 
         //sight配列からposition番目のデータを取得し[fragment_detail]画面に表示
-        binding.detailName.text = sights[position].name
+        //binding.detailName.text = sights[position].name
         binding.detailBonus.text = sights[position].bonus
         binding.detailBonushigh.text = sights[position].bonushigh
         binding.detailReach.text = sights[position].reach
