@@ -46,4 +46,7 @@ class SightAdapter(
 
     //Sightオブジェクトの数を返すように設定
     override fun getItemCount(): Int = sights.size
+
+
+
 }
