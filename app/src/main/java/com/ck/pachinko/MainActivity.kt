@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
 
         // Test App ID
         MobileAds.initialize(this) {
-            "ca-app-pub-3940256099942544~3347511713"
+            "ca-app-pub-1076758122175366~9439584513"
         }
 
         //  バナー広告設定
