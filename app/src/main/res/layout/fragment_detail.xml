@@ -8,11 +8,71 @@
     android:layout_height="match_parent"
     tools:context="com.ck.pachinko.MainActivity">
 
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/detailInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/biko" />
+
+    <TextView
+        android:id="@+id/biko"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/biko"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detailForPlus" />
+
+    <TextView
+        android:id="@+id/detailCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mitame" />
+
+    <TextView
+        android:id="@+id/detailReach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yutotu" />
+
+    <TextView
+        android:id="@+id/mitame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/mitame"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detailReach" />
 
     <TextView
         android:id="@+id/detailBonus"
@@ -22,6 +82,7 @@
         android:layout_marginTop="8dp"
         android:text="TextView"
         android:textColor="#FFFFFF"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ooatari" />
 
@@ -33,19 +94,9 @@
         android:layout_marginTop="8dp"
         android:text="TextView"
         android:textColor="#FFFFFF"
+        android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@+id/migi"
         app:layout_constraintTop_toBottomOf="@+id/ooatari" />
-
-    <TextView
-        android:id="@+id/detailReach"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:text="TextView"
-        android:textColor="#FFFFFF"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/yutotu" />
 
     <TextView
         android:id="@+id/detailPerformance"
@@ -55,6 +106,7 @@
         android:layout_marginTop="8dp"
         android:text="TextView"
         android:textColor="#FFFFFF"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/yusei" />
 
@@ -66,6 +118,7 @@
         android:layout_marginTop="8dp"
         android:text="TextView"
         android:textColor="#FFFFFF"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/yukita" />
 
@@ -77,6 +130,7 @@
         android:layout_marginTop="8dp"
         android:text="TextView"
         android:textColor="#FFFFFF"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/yutoku" />
 
@@ -88,6 +142,7 @@
         android:layout_marginTop="8dp"
         android:text="TextView"
         android:textColor="#FFFFFF"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/plus" />
 
@@ -112,7 +167,7 @@
         android:layout_marginTop="8dp"
         android:text="@string/migi"
         android:textColor="#FFFFFF"
-        android:textSize="14sp"
+        android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@+id/detailBonus"
         app:layout_constraintTop_toBottomOf="@+id/ooatari" />
 
@@ -140,7 +195,7 @@
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/detailReach" />
+        app:layout_constraintTop_toBottomOf="@+id/detailCounter" />
 
     <TextView
         android:id="@+id/yukita"

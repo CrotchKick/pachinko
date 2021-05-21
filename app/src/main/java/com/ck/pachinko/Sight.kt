@@ -15,10 +15,12 @@ class Sight(
     val bonus: String,
     val bonushigh: String,
     val reach: String,
+    val counter: String,
     val performance: String,
     val expection: String,
     val benefits: String,
-    val forplus: String
+    val forplus: String,
+    val info: String
 )
 
 fun getSights(resources: Resources): List<Sight> {

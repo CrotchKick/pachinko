@@ -4,9 +4,11 @@
     <string name="totu">突入契機：</string>
     <string name="ooatari">大当たり確率</string>
     <string name="yutotsu">遊タイム突入契機</string>
+    <string name="mitame">カウンター上の遊タイム突入回数</string>
     <string name="yusei">遊タイム性能</string>
     <string name="yukita">遊タイム中大当たり期待度</string>
     <string name="yutoku">遊タイム中大当たり特典</string>
     <string name="plus">ボーダー回転数(等価、削りなし)</string>
+    <string name="biko">備考</string>
     <string name="migi">⇒</string>
 </resources>

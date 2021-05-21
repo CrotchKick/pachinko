@@ -44,9 +44,11 @@ class DetailFragment : Fragment() {
         binding.detailBonus.text = sights[position].bonus
         binding.detailBonushigh.text = sights[position].bonushigh
         binding.detailReach.text = sights[position].reach
+        binding.detailCounter.text = sights[position].counter
         binding.detailPerformance.text = sights[position].performance
         binding.detailExpection.text = sights[position].expection
         binding.detailBenefits.text = sights[position].benefits
         binding.detailForPlus.text = sights[position].forplus
+        binding.detailInfo.text = sights[position].info
     }
 }
