@@ -19,9 +19,9 @@ class SplashActivity : AppCompatActivity() {
         setContentView(R.layout.splash_drawable)
 
         //  広告設定
-        MobileAds.initialize(this) {
-            "ca-app-pub-1076758122175366~9439584513"
-        }
+//        MobileAds.initialize(this) {
+//            "ca-app-pub-1076758122175366~9439584513"
+//        }
         //インターステイシャル
 //        mInterstitialAd = InterstitialAd(this)
 //        mInterstitialAd.adUnitId = "ca-app-pub-3940256099942544/1033173712"

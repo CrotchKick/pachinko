@@ -18,6 +18,8 @@
         app:layout_constraintTop_toTopOf="parent">
     </FrameLayout>
 
+    <!-- Sample ca-app-pub-3940256099942544/6300978111-->
+    <!-- apl    ca-app-pub-1076758122175366/8114060403-->
     <com.google.android.gms.ads.AdView
         android:id="@+id/adView"
         android:layout_width="wrap_content"
