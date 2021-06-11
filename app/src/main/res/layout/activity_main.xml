@@ -19,7 +19,7 @@
     </FrameLayout>
 
     <!-- Sample ca-app-pub-3940256099942544/6300978111-->
-    <!-- apl    ca-app-pub-1076758122175366/8114060403-->
+    <!-- apl    ca-app-pub-1076758122175366/5139370096-->
     <com.google.android.gms.ads.AdView
         android:id="@+id/adView"
         android:layout_width="wrap_content"
@@ -28,7 +28,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="3dp"
         app:adSize="BANNER"
-        app:adUnitId="ca-app-pub-1076758122175366/8114060403"
+        app:adUnitId="ca-app-pub-1076758122175366/5139370096"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
